@@ -3,7 +3,7 @@
 Research Methods coursework at Metropolia University of Applied Sciences.
 Author: Lyubomir Linkov.
 
-Python scripts calculate statistics and create graphs. Written solutions and graphs for Exercises 2â€“9 have been submitted separately in Moodle.
+Python scripts calculate statistics and create graphs.
 
 ## Contents
 
