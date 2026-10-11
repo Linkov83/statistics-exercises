@@ -3,20 +3,20 @@
 Research Methods coursework at Metropolia University of Applied Sciences.
 Author: Lyubomir Linkov.
 
-Python scripts calculate statistics and create graphs.
+Python scripts calculate statistics and create graphs. Written solutions and graphs for Exercises 2–9 have been submitted separately in Moodle.
 
 ## Contents
 
 | Folder | Contents |
 | --- | --- |
-| `instructions/` | Exercise 1â€“5 document and submission instructions |
+| `instructions/` | Exercise 1–5 document and submission instructions |
 | `exercises/ex02/` | Gasoline price frequency tables and relative frequency graphs |
 | `exercises/ex03/` | Finnish road traffic statistics and comparison graphs |
-| `exercises/ex04/` | Evaporation statistics, histogram, Shapiroâ€“Wilk test and standard deviation interval |
+| `exercises/ex04/` | Evaporation statistics, histogram, Shapiro–Wilk test and standard deviation interval |
 | `exercises/ex05/` | Study hours/GPA correlation and perfect negative correlation example |
 | `exercises/ex09/` | Descriptive statistics and line graph of Finnish traffic fatalities |
 
-Exercises 6â€“8 have written probability and reliability solutions and no Python scripts in this repository. Exercise 3D is a written check of calculations and graphs.
+Exercises 6–8 have written probability and reliability solutions and no Python scripts in this repository. Exercise 3D is a written check of calculations and graphs.
 
 ## Setup
 
@@ -76,14 +76,14 @@ Graphs are saved as PNG files in each exercise's `figures/` folder. Exercise 2 g
 
 - **2A:** gasoline prices supplied in the exercise document.
 - **2B:** 14 observations of 95 E10 prices from five Helsinki stations in August 2026, from [Hintatutka](https://www.hintatutka.net/explore/suomi/uusimaa/helsinki?range=custom&from=2026-08-01&to=2026-08-31&group=day&fuels%5B%5D=95e10).
-- **3 and 9:** [Statistics Finland, StatFin Table 12sc](https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__ton/12sc.px/), values reproduced from the exercise document for 2003â€“2025. The 2025 data are preliminary.
+- **3 and 9:** [Statistics Finland, StatFin Table 12sc](https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__ton/12sc.px/), values reproduced from the exercise document for 2003–2025. The 2025 data are preliminary.
 - **4 and 5:** supplied evaporation and study hours/GPA data; Exercise 5B uses `y = 12 - 2x`.
 
 ## Conventions
 
 - Sample standard deviation uses `n - 1`.
 - Absolute frequencies sum to the number of observations; relative frequencies sum to 1, apart from rounding.
-- The Shapiroâ€“Wilk test uses significance level 0.05. Not rejecting normality does not prove a normal distribution.
+- The Shapiro–Wilk test uses significance level 0.05. Not rejecting normality does not prove a normal distribution.
 - Correlation describes linear association and does not establish causation.
 
 Python supports calculation checks and graphs. Written submissions include formulas, reasoning, results and checks required by the course instructions.
